@@ -1,0 +1,6198 @@
+<html><meta charset='utf-8'>
+<head>
+<a name='top'/>
+<title>STANDARD NETWORK ANALYSIS REPORT</title>
+<link rel='stylesheet' type='text/css' href='Standard Network Analysis-style-sheet.css'/>
+<link rel='stylesheet' type='text/css' href = 'https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css'>
+<script type='text/javascript' language='javascript' src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script type='text/javascript' language='javascript' src='https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js'></script>
+<script type='text/javascript' language='javascript' src='RankedTables.js'></script>
+<script type='text/javascript' language='javascript' src='Chart.js'></script>
+</head>
+<h1>STANDARD NETWORK ANALYSIS REPORT</h1>
+<blockquote>
+<p>Input data: Meta Network</p>
+<p>Start time: Wed Dec 06 20:41:06 2017
+</p>
+<p><a href="Standard Network Analysis_network-data-description.html">Data Description</a></p>
+</blockquote>
+<blockquote>
+<p>Calculates common social network measures on each selected input network.</p>
+<h2>Standard Network Analysis: Organization x Agent</h2>
+<blockquote>
+<p>This page displays common social network analysis measures for the network. Network images have nodes colored by group and sized by betweenness centrality.</p>
+<h3>Network-Level Measures</h3>
+<blockquote>
+<table>
+<col width='300px'/>
+<col width='150px'/>
+<tr>
+<th>Measure</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>Row count</td>
+<td>372</td>
+</tr>
+<tr>
+<td>Column count</td>
+<td>137</td>
+</tr>
+<tr>
+<td>Link count</td>
+<td>186</td>
+</tr>
+<tr>
+<td>Density</td>
+<td>0.004</td>
+</tr>
+<tr>
+<td>Weighted Density</td>
+<td>5.123e-004</td>
+</tr>
+<tr>
+<td>Row Redundancy</td>
+<td>5.534e-004</td>
+</tr>
+<tr>
+<td>Column Redundancy</td>
+<td>9.641e-004</td>
+</tr>
+<tr>
+<td>Row Breadth</td>
+<td>0.384</td>
+</tr>
+<tr>
+<td>Column Breadth</td>
+<td>0.869</td>
+</tr>
+</table>
+</blockquote>
+<h3>Node-Level Measures</h3>
+<blockquote>
+<table>
+<col width='300px'/>
+<col width='150px'/>
+<col width='150px'/>
+<col width='150px'/>
+<col width='150px'/>
+<tr>
+<th>Measure</th>
+<th>Min</th>
+<th>Mean</th>
+<th>Max</th>
+<th>Std.Dev</th>
+</tr>
+<tr>
+<td>In-degree centrality</td>
+<td>5.974e-005</td>
+<td>5.123e-004</td>
+<td>0.006</td>
+<td>7.814e-004</td>
+</tr>
+<tr>
+<td>In-degree centrality [Unscaled]</td>
+<td>1</td>
+<td>8.577</td>
+<td>102</td>
+<td>13.081</td>
+</tr>
+<tr>
+<td>Out-degree centrality</td>
+<td>0</td>
+<td>5.123e-004</td>
+<td>0.007</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Out-degree centrality [Unscaled]</td>
+<td>0</td>
+<td>3.159</td>
+<td>46</td>
+<td>6.328</td>
+</tr>
+<tr>
+<td>Authority centrality</td>
+<td>0</td>
+<td>0.003</td>
+<td>0.022</td>
+<td>0.006</td>
+</tr>
+<tr>
+<td>Hub centrality</td>
+<td>0</td>
+<td>8.586e-004</td>
+<td>0.016</td>
+<td>0.002</td>
+</tr>
+<tr>
+<td>Row Exclusivity</td>
+<td>0</td>
+<td>9.118e-004</td>
+<td>0.008</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Row Exclusivity [Unscaled]</td>
+<td>0</td>
+<td>0.339</td>
+<td>3</td>
+<td>0.551</td>
+</tr>
+<tr>
+<td>Column Exclusivity</td>
+<td>9.878e-004</td>
+<td>0.008</td>
+<td>0.054</td>
+<td>0.008</td>
+</tr>
+<tr>
+<td>Column Exclusivity [Unscaled]</td>
+<td>0.135</td>
+<td>1.098</td>
+<td>7.368</td>
+<td>1.056</td>
+</tr>
+<tr>
+<td>Complete Row Exclusivity</td>
+<td>0</td>
+<td>8.093e-004</td>
+<td>0.008</td>
+<td>0.001</td>
+</tr>
+<tr>
+<td>Complete Row Exclusivity [Unscaled]</td>
+<td>0</td>
+<td>0.301</td>
+<td>3</td>
+<td>0.549</td>
+</tr>
+<tr>
+<td>Complete Column Exclusivity</td>
+<td>0</td>
+<td>0.007</td>
+<td>0.051</td>
+<td>0.008</td>
+</tr>
+<tr>
+<td>Complete Column Exclusivity [Unscaled]</td>
+<td>0</td>
+<td>0.964</td>
+<td>7</td>
+<td>1.077</td>
+</tr>
+</table>
+</blockquote>
+<h3>Recurring Top Ranked Organization</h3>
+<blockquote>
+<p>This chart shows the Organization that is repeatedly top-ranked in the node-level measures listed below. The value shown is the percentage of measures for which the Organization node was ranked in the top three. If there are multiple networks, then a measure is computed multiple times and nodes are ranked multiple times for the measure.</p>
+<p>There are 372 nodes in the nodeset.</p>
+<p><div class='chart'><table><td class='chart-y-axis-title'>Percent of measures</td><td><canvas class='chart-canvas' id='Standard Network Analysis-Meta_Network--Organization-overall-top-ranked-barchart'></canvas></td></table><script type='text/javascript' src='Standard Network Analysis-Meta_Network--Organization-overall-top-ranked-barchart.js'></script></div></p>
+</blockquote>
+<p><a name="tableOfContents"></a></p>
+<h3>Measure List</h3>
+<blockquote>
+<p><a href="#outDegreeCentrality-graph-[Organization x Agent]Organization x Agent">Out-degree centrality-Organization x Agent</a></p>
+<p><a href="#hubCentrality-graph-[Organization x Agent]Organization x Agent">Hub centrality-Organization x Agent</a></p>
+<p><a href="#rowExclusivity-graph-[Organization x Agent]Organization x Agent">Row Exclusivity-Organization x Agent</a></p>
+<p><a href="#rowExclusivityComplete-graph-[Organization x Agent]Organization x Agent">Complete Row Exclusivity-Organization x Agent</a></p>
+</blockquote>
+<p><a name="outDegreeCentrality-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Out-degree centrality</h3>
+<blockquote>
+<p>For any node, e.g. an individual or a resource, the out-links are the connections that the node of interest has to other nodes. For example, imagine an agent by knowledge network where the number of out-links an agent would have is the number of pieces of knowledge it is connected to. The scientific name of this measure is out-degree and it can be calculated on any network.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Organization</td>
+<td>Value</td>
+<td>Unscaled</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Oli Gold Muruli Limited</td>
+<td style='color:red'>0.007</td>
+<td style='color:red'>46</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Mwendo Enterprises Limited</td>
+<td style='color:red'>0.006</td>
+<td style='color:red'>36</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Great Lakes Mining Ltd</td>
+<td style='color:red'>0.006</td>
+<td style='color:red'>34</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Rift Valley Investments Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>32</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Sino Minerals Investments Company Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>32</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Steel Rolling Mills Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>32</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>Indiana Mining Limited </td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>29</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Samaj (U) Ltd</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>28</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Universal Granite and Marble Ltd</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>28</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>John Mary Muyambi (Jr)</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>27</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Tororo Cement Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>25</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Greenstone Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>18</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Pearl Mining (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>18</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:red'>Zhong Hua Exploration and Mineral Development Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>18</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:red'>Oryx Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>17</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:red'>Aurua Green Metals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>16</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:red'>Rift Valley Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>16</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:red'>Mate Mines Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>15</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:red'>AUC Mining (U) Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>14</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:red'>African Rift Minerals Ltd</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>14</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:red'>Nelvo International Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>14</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:red'>Royalco Resources Ltd</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>14</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:red'>Saba Saba Mining Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>14</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:red'>Hima Cement Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>13</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:red'>Jiadao (U) Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>13</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:red'>AVR Engineering & Infrastructure Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>12</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:red'>Blackstone Ichiban Ltd</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>12</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:red'>Gemstones International Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>12</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:red'>Megha Minerals & Mines Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>12</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:red'>Sikander Meghani</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>12</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:red'>Clean  Source Energy Partners Ltd</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>11</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:red'>Kilembe Mines Limited</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>11</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:red'>Peter Mukiza</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>10</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:green'>Amos George Mfite Basaza</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:green'>Gulf Resources Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:green'>Heer Distributors Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:green'>Kab Resources Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:green'>Nawata Mines Ltd</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:green'>Welt Machnen Engineering Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:green'>William Babigumira</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:green'>Andrew Kabiito Rubuubi</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:green'>FLD Mining (U) Ltd</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>Fergie Minerals & Metals</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>First Mining Company Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>Majest Com (U) Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>Mamuka Industries (U) Ltd</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>Milu (U) Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Sunder Wallia Kaka</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>Zoek Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>Budha Mining & Exploration Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Cupar Investment (U) Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Doher Industries Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>Fulin Mines Ltd</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Kirabira Stephen</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Mineral Research & Mines Limited</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>BNT Mining Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>Baracat Minerals (U) Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Beta Minerals Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Esimo Industries Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Goldspy Africa Limited </td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>Kigezi Steel Company Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Kitumbi Kayonza Miners Association Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Paul Bonabantu</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Royal African Mining Company Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Savanah Mines Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Sebabi Samuel</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>Tibet Hima Mining Company Limited</td>
+<td style='color:green'>9.732e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>African Minerals Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>Arua Green Metals Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>East African Mineral Explorer Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>Frontier Exploration (U) Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Gold Empire Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>Kimberlites Mining Limited </td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>Lokwang Peter</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>Marua Group Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>Marubeg Company Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>Zarnack Holdings (U) Limited</td>
+<td style='color:green'>8.110e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Ahmed Elias</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>Byona Ambrose</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>Capital Ventures International Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>Cozumel Energy (U) Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>Eco Technologies Ltd</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>Elegant Resources Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>Femet (U) Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>George Onega</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Gilter's Mines (U) Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Hilltop Minerals & Metals Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Indiana Investments Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Irene Kambonesa</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Jiahao Mining (U) Ltd</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Jovena Mines (U) Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>Kamuntu Moses</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>Kisita Mining Co. Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Krone Uganda Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Kweri Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Luwalalira Louis Livingstone</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>Majoli Henry </td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>Mines Industry Services (U) Ltd</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>Moroto Cement Industries  (U) Limited</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>Muhindo Enterprises</td>
+<td style='color:green'>6.488e-004</td>
+<td style='color:green'>4</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>5.123e-004</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.007</td>
+<td>Std.dev:</td>
+<td>0.001</td>
+<td>Median:</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>6.488e-004</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="hubCentrality-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Hub centrality</h3>
+<blockquote>
+<p>A node is hub-central to the extent that its out-links are to nodes that have many in-links. Individuals or organizations that act as hubs are sending information to a wide range of others each of whom has many others reporting to them. Technically, an agent is hub-central if its out-links are to agents that have many other agents sending links to them. The scientific name of this measure is hub centrality and it is calculated on agent by agent matrices.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Organization</td>
+<td>Value</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Nelvo International Limited</td>
+<td style='color:red'>0.016</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Oli Gold Muruli Limited</td>
+<td style='color:red'>0.013</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Great Lakes Mining Ltd</td>
+<td style='color:red'>0.012</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Saba Saba Mining Limited</td>
+<td style='color:red'>0.011</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>FLD Mining (U) Ltd</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Oryx Minerals Limited</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>Indiana Mining Limited </td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Universal Granite and Marble Ltd</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Fulin Mines Ltd</td>
+<td style='color:red'>0.009</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>Sino Minerals Investments Company Limited</td>
+<td style='color:red'>0.009</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Fergie Minerals & Metals</td>
+<td style='color:red'>0.009</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Doher Industries Limited</td>
+<td style='color:red'>0.008</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Tibet Hima Mining Company Limited</td>
+<td style='color:red'>0.008</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:red'>Greenstone Resources Limited</td>
+<td style='color:red'>0.007</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:red'>Esimo Industries Limited</td>
+<td style='color:red'>0.007</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:red'>Budha Mining & Exploration Limited</td>
+<td style='color:red'>0.006</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:red'>Rift Valley Minerals Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:red'>Gilter's Mines (U) Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:red'>Jiahao Mining (U) Ltd</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:red'>Jovena Mines (U) Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:red'>Aurua Green Metals Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:red'>Mate Mines Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:red'>AVR Engineering & Infrastructure Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:red'>Peter Mukiza</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:red'>BNT Mining Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:red'>Egency International Traders Ltd</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:red'>Kamuntu Moses</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:red'>Katwe Geothermal Power Project Ltd</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:red'>Universal Empire Infrastructures Limited</td>
+<td style='color:red'>0.005</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:red'>Beta Minerals Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:red'>Goldspy Africa Limited </td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:red'>Gulf Resources Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:red'>Kilembe Mines Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:red'>Cozumel Energy (U) Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:red'>AUC Mining (U) Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:red'>Megha Minerals & Mines Limited</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:red'>Sikander Meghani</td>
+<td style='color:red'>0.004</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:red'>Gemstones International Limited</td>
+<td style='color:red'>0.003</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:red'>African Rift Minerals Ltd</td>
+<td style='color:red'>0.003</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:red'>Hard Rock Engineering Limited</td>
+<td style='color:red'>0.003</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:red'>Elegant Resources Limited</td>
+<td style='color:red'>0.003</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:red'>Blue Steel (U) Ltd</td>
+<td style='color:red'>0.003</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>Zarnack Holdings (U) Limited</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>Femet (U) Limited</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>Kweri Limited</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>Universal Resources International Limited</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>Zamani Mining Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Nile Exploration Company Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>Berkeley Reef Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>Bernard Kajura</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Kamuntu Investments Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Lupampa Muzira Noa</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>Esta Industries Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Kimberlites Mining Limited </td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Hilltop Minerals & Metals Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>Paul Bonabantu</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>Kisita Mining Co. Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Arua Green Metals Limited</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Gold Empire Limited</td>
+<td style='color:green'>0.001</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Heer Distributors Limited</td>
+<td style='color:green'>0.001</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>A B Mining Limited</td>
+<td style='color:green'>0.001</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Tin Trade Company Limited</td>
+<td style='color:green'>0.001</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Universal Iron Ore Ltd</td>
+<td style='color:green'>0.001</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Mota Limited</td>
+<td style='color:green'>8.165e-004</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Indiana Investments Limited</td>
+<td style='color:green'>7.097e-004</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Frontier Exploration (U) Limited</td>
+<td style='color:green'>6.401e-004</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>African Mineral Fields</td>
+<td style='color:green'>6.187e-004</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>Rift Valley Minerals Company</td>
+<td style='color:green'>3.561e-004</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>GIL Enterprises Limited</td>
+<td style='color:green'>3.543e-004</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>John M. Muruli Muyambi </td>
+<td style='color:green'>2.938e-004</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>John Mary Muyambi (Jr)</td>
+<td style='color:green'>1.077e-004</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Mashonga</td>
+<td style='color:green'>3.991e-006</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>3T Mining Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>AAE Systems Inc</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>ARRM Investments Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>ASKL Mineral Prospectors Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>Aerial Resources (U) Ltd</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Afford (U) Ltd </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>Africa Middle East Resources (U) Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>Africa Rare Earth & Metals (U) Ltd</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>African Metal Properties Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>African Minerals Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>African Panther Resources (U) Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>African Quest Resources Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>Africombs Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Afrisam Cement Uganda Ltd</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Ahmed Elias</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Aljouda Mining Company Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Alta Vista Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Amor Mines Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Amos George Mfite Basaza</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>Ancient Global Resources</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>Andrew Kabiito Rubuubi</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Angaro Investment Company Ltd</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Anglo African Gold Mining Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Aquva International Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>Ascort Mining (U) Ltd </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>Ascot Associates</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>Asiid Enterprises Limited</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>Askar Investments Limited</td>
+<td style='color:green'>0</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>8.586e-004</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.016</td>
+<td>Std.dev:</td>
+<td>0.002</td>
+<td>Median:</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="rowExclusivity-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Row Exclusivity</h3>
+<blockquote>
+<p>Detects row nodes that have ties to column nodes that comparatively few other row nodes have.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<col width='800px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Organization</td>
+<td>Value</td>
+<td>Unscaled</td>
+<td>Specialty</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Milu (U) Limited</td>
+<td style='color:red'>0.008</td>
+<td style='color:red'>3</td>
+<td>Mr. Abeb , Mr.Abeb, Mr.Moges</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Rift Valley Investments Limited</td>
+<td style='color:red'>0.008</td>
+<td style='color:red'>3</td>
+<td>Kyomugisha, Miriam Sebunya , Merian Sebunya </td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Amos George Mfite Basaza</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>A. G. Mfite Basaza, Amos George Mfite Basaza</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>First Mining Company Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>JosephAburek, Joseph Aburek</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Fred Kasalire </td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Fred Kasalire , Fred Kasalirwe </td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Hima Cement Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>DavidNjoroge, David Njoroge</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>Kigezi Steel Company Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Hon. Sarapio Rukundo, Hon. SarapioRukundo</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Krone Uganda Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>KakizaAmooti, Kakiza Amooti </td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Mines Industry Services (U) Ltd</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Kiggala Eddie , KiggalaEddie</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>Moroto Cement Industries  (U) Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Mawanda, Mawanda Michael</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Muhindo Enterprises</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Muhindo Jamal , Muhind o Jamal</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Picfare Industries Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Kishor Jobanputra, Mitul Jobanputra</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Tororo Cement Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>B M Gagrani , B. M.Gagrani</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:red'>Greenstone Resources Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>PaulSherwen</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:red'>Gulf Resources Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>Dennis</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:red'>Mate Mines Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>Ssenfuma Edward</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:red'>Peter Mukiza</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>Peter Mukiza </td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:red'>Rift Valley Minerals Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>SasirweJohnny</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:red'>Universal Resources International Limited</td>
+<td style='color:red'>0.004</td>
+<td style='color:red'>1.368</td>
+<td>Adungosi Martin </td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:red'>African Mineral Fields</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1.050</td>
+<td>Joy Akoli </td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:red'>Oli Gold Muruli Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1.050</td>
+<td>Muruli </td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:red'>Indiana Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1.002</td>
+<td>Pawan Devi</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:red'>Kilembe Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1.002</td>
+<td>Fred W. Kyakonye</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:red'>Heer Distributors Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1.001</td>
+<td>Patel Galaxy </td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:red'>3T Mining Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>NireshPatel</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:red'>African Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Benon Tamusange </td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:red'>African Panther Resources (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ben A. James</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:red'>Ahmed Elias</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ahmed Elias </td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:red'>Alta Vista Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Masette Simon and Lusala Edward</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:red'>Andrew Kabiito Rubuubi</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Andrew </td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:red'>Atuhaire Victor & Sons Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>AtuhaireVictor</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:red'>Aya Mining (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Muhammed Hamid </td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:red'>BBK Foods and Beverages (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bakamuturaki</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:red'>Baracat Minerals (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Siraji Mwenyi Bukenya</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:red'>Blackstone Ichiban Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bob</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:red'>Brig. Andrew Lutaya</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Brig. Andrew Lutaya</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:red'>Busitema Mining CIE Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Paul Sherwen </td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:red'>Byona Ambrose</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Byona Ambrose</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:red'>Capital Ventures International Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Victor Muganwa </td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:red'>China (U) Exploration & Mineral Development</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Zang Jing </td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:red'>Clean  Source Energy Partners Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mbuga Nassour</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:red'>Cupar Investment (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Daudi Migereko</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:red'>East African Gold Sniffing Company Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kusasira Denis </td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:red'>East African Mineral Explorer Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kibugo Fred </td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:red'>Eco Technologies Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Wasswa Birigwa</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:red'>Faithable International Co Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bwogyero Abel </td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:red'>Flemish Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>John Dixon </td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:red'>George Onega</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>George Onega</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:red'>Godfrey Luwaga</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Godfrey Luwaga</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:red'>Gulam Abdala </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Gulam Abdala </td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:red'>Hillmarks Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Esau Tumusiime</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:red'>Irene Kambonesa</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Irene Kambonesa</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:red'>Jiadao (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Umal Ssonko Sembatya</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:red'>Kab Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Eng. Balu- Tabaro</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:red'>Kibiito Transporters and Construction Company Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Nyakahuma B </td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:red'>Kirabira Stephen</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kirabira Stephen</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:red'>Kitumbi Kayonza Miners Association Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ssenfuma</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:red'>Kripto International Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Dr. Paul Printh </td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:red'>Kwatampora Alex Binego</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kwatampora Alex Binego</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:red'>Lokwang Peter</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Lokwang Peter </td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:red'>Luwalalira Louis Livingstone</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Luwalalira Louis Livingstone</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:red'>MCB Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Michael Wang</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:red'>Majest Com (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sam Bitangaro</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:red'>Majoli Henry </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Majoli Henry </td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:red'>Makugem (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Makubuya Farouk</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:red'>Mamuka Industries (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Yusuf </td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:red'>Marua Group Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Godfrey</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:red'>Marubeg Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kayonga Kellen </td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:red'>Mineral Research & Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Begumisa George</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:red'>Muwanguzi Johnson Kato</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Muwanguzi Johnson Kato</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:red'>Mwendo Enterprises Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Jenifer Hinton</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:red'>Nawata Mines Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Luwangula Ismail</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:red'>Nicewood Logistics Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bitarabeho Nice</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:red'>Nilefos Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Niresh Kanabar </td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:red'>Nzabonimpa- Geofrey</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Nzabonimpa Geofrey</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:red'>Patricos Ehterprilds</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Musiime Patrick</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:red'>Pearl Mining (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bruce Milne</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:red'>Rift Valley Mines Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Geoffrey Ntambirweki Kandeeb</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:red'>Royal African Mining Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Omar Bisaso</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:red'>Royalco Resources Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Moges Feyera</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:red'>Rusla Mining and Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Agumya Allan</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:red'>Samaj (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sabine A</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:red'>Savanah Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mothing Samson</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:red'>Sebabi Samuel</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sebabi Samuel </td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:red'>Sombbs Mining Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Eng Mbuga</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:red'>Steel Rolling Mills Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Abid Alam </td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:red'>Sunder Wallia Kaka</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sunder Wallia Kaka</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:red'>Tian Tang Group (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Zang Paul </td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:red'>Tin Tan (U) Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Viral Bhayari</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:red'>Uganda Metal Recycling Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mahesh Ajudiya</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:red'>Universal Metals Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kuma </td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:red'>Welt Machnen Engineering Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Lokeris Ben</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:red'>Whoword Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Okello Sarah </td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:red'>William Babigumira</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>William Babigumira</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:red'>Wogabaga Stephen K.</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Wogabaga Stephen K.</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:red'>Zhong Hua Exploration and Mineral Development Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Li Yahua </td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:red'>Zoek Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Balemesa </td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>African Rift Minerals Ltd</td>
+<td style='color:green'>0.002</td>
+<td style='color:green'>0.736</td>
+<td>Joshua Tuhumwire, Joshua T </td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>AUC Mining (U) Limited</td>
+<td style='color:green'>9.889e-004</td>
+<td style='color:green'>0.368</td>
+<td>Moses Masagazi</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>AVR Engineering & Infrastructure Limited</td>
+<td style='color:green'>9.889e-004</td>
+<td style='color:green'>0.368</td>
+<td>Sameer Rahim</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>9.118e-004</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.008</td>
+<td>Std.dev:</td>
+<td>0.001</td>
+<td>Median:</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0.003</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="rowExclusivityComplete-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Complete Row Exclusivity</h3>
+<blockquote>
+<p>Detects row nodes that have ties to column nodes that no other row node has.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<col width='800px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Organization</td>
+<td>Value</td>
+<td>Unscaled</td>
+<td>Specialty</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Milu (U) Limited</td>
+<td style='color:red'>0.008</td>
+<td style='color:red'>3</td>
+<td>Mr. Abeb , Mr.Abeb, Mr.Moges</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Rift Valley Investments Limited</td>
+<td style='color:red'>0.008</td>
+<td style='color:red'>3</td>
+<td>Kyomugisha, Miriam Sebunya , Merian Sebunya </td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Amos George Mfite Basaza</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>A. G. Mfite Basaza, Amos George Mfite Basaza</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>First Mining Company Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>JosephAburek, Joseph Aburek</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Fred Kasalire </td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Fred Kasalire , Fred Kasalirwe </td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Hima Cement Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>DavidNjoroge, David Njoroge</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>Kigezi Steel Company Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Hon. Sarapio Rukundo, Hon. SarapioRukundo</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Krone Uganda Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>KakizaAmooti, Kakiza Amooti </td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Mines Industry Services (U) Ltd</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Kiggala Eddie , KiggalaEddie</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>Moroto Cement Industries  (U) Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Mawanda, Mawanda Michael</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Muhindo Enterprises</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Muhindo Jamal , Muhind o Jamal</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Picfare Industries Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>Kishor Jobanputra, Mitul Jobanputra</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Tororo Cement Limited</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>2</td>
+<td>B M Gagrani , B. M.Gagrani</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:red'>3T Mining Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>NireshPatel</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:red'>African Mineral Fields</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Joy Akoli </td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:red'>African Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Benon Tamusange </td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:red'>African Panther Resources (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ben A. James</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:red'>Ahmed Elias</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ahmed Elias </td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:red'>Alta Vista Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Masette Simon and Lusala Edward</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:red'>Andrew Kabiito Rubuubi</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Andrew </td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:red'>Atuhaire Victor & Sons Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>AtuhaireVictor</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:red'>Aya Mining (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Muhammed Hamid </td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:red'>BBK Foods and Beverages (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bakamuturaki</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:red'>Baracat Minerals (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Siraji Mwenyi Bukenya</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:red'>Blackstone Ichiban Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bob</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:red'>Brig. Andrew Lutaya</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Brig. Andrew Lutaya</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:red'>Busitema Mining CIE Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Paul Sherwen </td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:red'>Byona Ambrose</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Byona Ambrose</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:red'>Capital Ventures International Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Victor Muganwa </td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:red'>China (U) Exploration & Mineral Development</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Zang Jing </td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:red'>Clean  Source Energy Partners Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mbuga Nassour</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:red'>Cupar Investment (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Daudi Migereko</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:red'>East African Gold Sniffing Company Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kusasira Denis </td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:red'>East African Mineral Explorer Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kibugo Fred </td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:red'>Eco Technologies Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Wasswa Birigwa</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:red'>Faithable International Co Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bwogyero Abel </td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:red'>Flemish Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>John Dixon </td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:red'>George Onega</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>George Onega</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:red'>Godfrey Luwaga</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Godfrey Luwaga</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:red'>Greenstone Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>PaulSherwen</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:red'>Gulam Abdala </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Gulam Abdala </td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:red'>Gulf Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Dennis</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:red'>Heer Distributors Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Patel Galaxy </td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:red'>Hillmarks Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Esau Tumusiime</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:red'>Indiana Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Pawan Devi</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:red'>Irene Kambonesa</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Irene Kambonesa</td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:red'>Jiadao (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Umal Ssonko Sembatya</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:red'>Kab Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Eng. Balu- Tabaro</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:red'>Kibiito Transporters and Construction Company Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Nyakahuma B </td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:red'>Kilembe Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Fred W. Kyakonye</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:red'>Kirabira Stephen</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kirabira Stephen</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:red'>Kitumbi Kayonza Miners Association Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ssenfuma</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:red'>Kripto International Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Dr. Paul Printh </td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:red'>Kwatampora Alex Binego</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kwatampora Alex Binego</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:red'>Lokwang Peter</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Lokwang Peter </td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:red'>Luwalalira Louis Livingstone</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Luwalalira Louis Livingstone</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:red'>MCB Resources Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Michael Wang</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:red'>Majest Com (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sam Bitangaro</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:red'>Majoli Henry </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Majoli Henry </td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:red'>Makugem (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Makubuya Farouk</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:red'>Mamuka Industries (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Yusuf </td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:red'>Marua Group Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Godfrey</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:red'>Marubeg Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kayonga Kellen </td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:red'>Mate Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Ssenfuma Edward</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:red'>Mineral Research & Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Begumisa George</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:red'>Muwanguzi Johnson Kato</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Muwanguzi Johnson Kato</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:red'>Mwendo Enterprises Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Jenifer Hinton</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:red'>Nawata Mines Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Luwangula Ismail</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:red'>Nicewood Logistics Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bitarabeho Nice</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:red'>Nilefos Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Niresh Kanabar </td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:red'>Nzabonimpa- Geofrey</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Nzabonimpa Geofrey</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:red'>Oli Gold Muruli Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Muruli </td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:red'>Patricos Ehterprilds</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Musiime Patrick</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:red'>Pearl Mining (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Bruce Milne</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:red'>Peter Mukiza</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Peter Mukiza </td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:red'>Rift Valley Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>SasirweJohnny</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:red'>Rift Valley Mines Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Geoffrey Ntambirweki Kandeeb</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:red'>Royal African Mining Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Omar Bisaso</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:red'>Royalco Resources Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Moges Feyera</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:red'>Rusla Mining and Minerals Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Agumya Allan</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:red'>Samaj (U) Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sabine A</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:red'>Savanah Mines Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mothing Samson</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:red'>Sebabi Samuel</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sebabi Samuel </td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:red'>Sombbs Mining Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Eng Mbuga</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:red'>Steel Rolling Mills Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Abid Alam </td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:red'>Sunder Wallia Kaka</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Sunder Wallia Kaka</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:red'>Tian Tang Group (U) Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Zang Paul </td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:red'>Tin Tan (U) Limited </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Viral Bhayari</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:red'>Uganda Metal Recycling Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Mahesh Ajudiya</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:red'>Universal Metals Ltd</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Kuma </td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:red'>Universal Resources International Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Adungosi Martin </td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:red'>Welt Machnen Engineering Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Lokeris Ben</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:red'>Whoword Investments Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Okello Sarah </td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:red'>William Babigumira</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>William Babigumira</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:red'>Wogabaga Stephen K.</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Wogabaga Stephen K.</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:red'>Zhong Hua Exploration and Mineral Development Company Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Li Yahua </td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:red'>Zoek Limited</td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>1</td>
+<td>Balemesa </td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>A B Mining Limited</td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td>Akoli Joy </td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>AAE Systems Inc</td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td></td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>ARRM Investments Limited</td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td></td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>8.093e-004</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.008</td>
+<td>Std.dev:</td>
+<td>0.001</td>
+<td>Median:</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0.003</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<h3>Recurring Top Ranked Agent</h3>
+<blockquote>
+<p>This chart shows the Agent that is repeatedly top-ranked in the node-level measures listed below. The value shown is the percentage of measures for which the Agent node was ranked in the top three. If there are multiple networks, then a measure is computed multiple times and nodes are ranked multiple times for the measure.</p>
+<p>There are 137 nodes in the nodeset.</p>
+<p><div class='chart'><table><td class='chart-y-axis-title'>Percent of measures</td><td><canvas class='chart-canvas' id='Standard Network Analysis-Meta_Network--Agent-overall-top-ranked-barchart'></canvas></td></table><script type='text/javascript' src='Standard Network Analysis-Meta_Network--Agent-overall-top-ranked-barchart.js'></script></div></p>
+</blockquote>
+<p><a name="tableOfContents"></a></p>
+<h3>Measure List</h3>
+<blockquote>
+<p><a href="#inDegreeCentrality-graph-[Organization x Agent]Organization x Agent">In-degree centrality-Organization x Agent</a></p>
+<p><a href="#authorityCentrality-graph-[Organization x Agent]Organization x Agent">Authority centrality-Organization x Agent</a></p>
+<p><a href="#columnExclusivity-graph-[Organization x Agent]Organization x Agent">Column Exclusivity-Organization x Agent</a></p>
+<p><a href="#columnExclusivityComplete-graph-[Organization x Agent]Organization x Agent">Complete Column Exclusivity-Organization x Agent</a></p>
+</blockquote>
+<p><a name="inDegreeCentrality-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>In-degree centrality</h3>
+<blockquote>
+<p>The number of links directed into a node normalized by the maximum number of such links. This measure is also called Column Degree Centrality because it is computed by taking the sum of the column values in the input network.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Agent</td>
+<td>Value</td>
+<td>Unscaled</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Ranjeet Kumar Bhansali</td>
+<td style='color:red'>0.006</td>
+<td style='color:red'>102</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Muruli Muyambi</td>
+<td style='color:red'>0.005</td>
+<td style='color:red'>82</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Pravin Ghelani </td>
+<td style='color:red'>0.003</td>
+<td style='color:red'>42</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Jenifer Hinton</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>36</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Stan Chu</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>35</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Abid Alam </td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>32</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>John Mary Muyambi (Jr)</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>29</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Mutebi David</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>29</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Kyomugisha</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>28</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>Sabine A</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>28</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Moses Masagazi</td>
+<td style='color:red'>0.002</td>
+<td style='color:red'>26</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Akoli Joy </td>
+<td style='color:red'>0.001</td>
+<td style='color:red'>24</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Sikander Meghani </td>
+<td style='color:red'>0.001</td>
+<td style='color:red'>24</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:green'>Azim Nathoo </td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>21</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:green'>Joshua T </td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>20</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:green'>Bruce Milne</td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>18</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:green'>Li Yahua </td>
+<td style='color:green'>0.001</td>
+<td style='color:green'>18</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:green'>B. M.Gagrani</td>
+<td style='color:green'>9.558e-004</td>
+<td style='color:green'>16</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:green'>Edward Ssenfuma </td>
+<td style='color:green'>9.558e-004</td>
+<td style='color:green'>16</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:green'>Sameer Rahim</td>
+<td style='color:green'>9.558e-004</td>
+<td style='color:green'>16</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:green'>Sasirwe Johnny</td>
+<td style='color:green'>9.558e-004</td>
+<td style='color:green'>16</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:green'>Joshua Tuhumwire</td>
+<td style='color:green'>8.363e-004</td>
+<td style='color:green'>14</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:green'>Moges Feyera</td>
+<td style='color:green'>8.363e-004</td>
+<td style='color:green'>14</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:green'>Umal Ssonko Sembatya</td>
+<td style='color:green'>7.766e-004</td>
+<td style='color:green'>13</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:green'>Bob</td>
+<td style='color:green'>7.168e-004</td>
+<td style='color:green'>12</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:green'>David Njoroge</td>
+<td style='color:green'>6.571e-004</td>
+<td style='color:green'>11</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:green'>Mbuga Nassour</td>
+<td style='color:green'>6.571e-004</td>
+<td style='color:green'>11</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:green'>David Kyagulanyi</td>
+<td style='color:green'>5.974e-004</td>
+<td style='color:green'>10</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:green'>Katumba Jimmy</td>
+<td style='color:green'>5.974e-004</td>
+<td style='color:green'>10</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:green'>B M Gagrani </td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:green'>Dennis Kusasira</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:green'>Eng. Balu- Tabaro</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:green'>Fred W. Kyakonye</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:green'>Kajura Bernard</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:green'>Lokeris Ben</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:green'>Luwangula Ismail</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:green'>William Babigumira</td>
+<td style='color:green'>5.376e-004</td>
+<td style='color:green'>9</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:green'>Amos George Mfite Basaza</td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:green'>Andrew </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:green'>Balemesa </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:green'>Patel Galaxy </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:green'>Paul Bonabantu </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>Peter Mukiza </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>Sam Bitangaro</td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>Sunder Wallia Kaka</td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>Yusuf </td>
+<td style='color:green'>4.779e-004</td>
+<td style='color:green'>8</td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>Begumisa George</td>
+<td style='color:green'>4.182e-004</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Daudi Migereko</td>
+<td style='color:green'>4.182e-004</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>Henry Mukisa</td>
+<td style='color:green'>4.182e-004</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>Kirabira Stephen</td>
+<td style='color:green'>4.182e-004</td>
+<td style='color:green'>7</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Joseph Aburek</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Kamuntu Moses</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>Mothing Samson</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Oloya Mark </td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Omar Bisaso</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>Sebabi Samuel </td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>Siraji Mwenyi Bukenya</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Ssenfuma</td>
+<td style='color:green'>3.584e-004</td>
+<td style='color:green'>6</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Benon Tamusange </td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Dennis</td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>Godfrey</td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Hon. Sarapio Rukundo</td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Kayonga Kellen </td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Kibugo Fred </td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Lokwang Peter </td>
+<td style='color:green'>2.987e-004</td>
+<td style='color:green'>5</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Ahmed Elias </td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>Byona Ambrose</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>Eng Mbuga</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>George Onega</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>Irene Kambonesa</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>Kuma </td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Luwalalira Louis Livingstone</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>Majoli Henry </td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>Nzabonimpa Geofrey</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>Victor Muganwa </td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>Wasswa Birigwa</td>
+<td style='color:green'>2.389e-004</td>
+<td style='color:green'>4</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>Agumya Allan</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Bakamuturaki</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>KakizaAmooti</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>KiggalaEddie</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>Makubuya Farouk</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>Masette Simon and Lusala Edward</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>Michael Wang</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>Miriam Sebunya </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>Mr. Abeb </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Mr.Abeb</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Muhammed Hamid </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Muhindo Jamal </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Musiime Patrick</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Nambirige Sheilla </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Okello Sarah </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>PaulSherwen</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>Richard Adubango </td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Ssenfuma Edward</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Viral Bhayari</td>
+<td style='color:green'>1.792e-004</td>
+<td style='color:green'>3</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Adungosi Martin </td>
+<td style='color:green'>1.195e-004</td>
+<td style='color:green'>2</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>AtuhaireVictor</td>
+<td style='color:green'>1.195e-004</td>
+<td style='color:green'>2</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>Ben A. James</td>
+<td style='color:green'>1.195e-004</td>
+<td style='color:green'>2</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>Bitarabeho Nice</td>
+<td style='color:green'>1.195e-004</td>
+<td style='color:green'>2</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>DavidNjoroge</td>
+<td style='color:green'>1.195e-004</td>
+<td style='color:green'>2</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>5.974e-005</td>
+<td>Mean:</td>
+<td>5.123e-004</td>
+<td>Lower quartile:</td>
+<td>1.195e-004</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.006</td>
+<td>Std.dev:</td>
+<td>7.814e-004</td>
+<td>Median:</td>
+<td>2.389e-004</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>5.376e-004</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="authorityCentrality-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Authority centrality</h3>
+<blockquote>
+<p>A node is authority-central to the extent that its in-links are from nodes that have many out-links. Individuals or organizations that act as authorities are receiving information from a wide range of others each of whom sends information to a large number of others.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Agent</td>
+<td>Value</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Muruli Muyambi</td>
+<td style='color:red'>0.022</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Kyomugisha</td>
+<td style='color:red'>0.022</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Joshua T </td>
+<td style='color:red'>0.021</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Ranjeet Kumar Bhansali</td>
+<td style='color:red'>0.015</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Akoli Joy </td>
+<td style='color:red'>0.015</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Pravin Ghelani </td>
+<td style='color:red'>0.015</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>Sasirwe Johnny</td>
+<td style='color:red'>0.015</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:red'>Amos George Mfite Basaza</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:red'>Stan Chu</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:red'>David Njoroge</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:red'>Hon. Sarapio Rukundo</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:red'>Edward Ssenfuma </td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:red'>Oloya Mark </td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:red'>Mr. Abeb </td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:red'>Mr.Abeb</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:red'>Joseph Aburek</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:red'>KakizaAmooti</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:red'>KiggalaEddie</td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:red'>Muhindo Jamal </td>
+<td style='color:red'>0.014</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:red'>Fred Kasalire </td>
+<td style='color:red'>0.013</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:red'>Peter Mukiza </td>
+<td style='color:red'>0.013</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:red'>B. M.Gagrani</td>
+<td style='color:red'>0.013</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:red'>Dennis Kusasira</td>
+<td style='color:red'>0.012</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:red'>Kishor Jobanputra</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:red'>Mawanda</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:red'>Mawanda Michael</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:red'>Mitul Jobanputra</td>
+<td style='color:red'>0.010</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:red'>Mr.Moges</td>
+<td style='color:red'>0.009</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:green'>Dennis</td>
+<td style='color:green'>0.008</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:green'>B M Gagrani </td>
+<td style='color:green'>0.007</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:green'>Fred Kasalirwe </td>
+<td style='color:green'>0.007</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:green'>Paul Bonabantu </td>
+<td style='color:green'>0.007</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:green'>Joshua Tuhumwire</td>
+<td style='color:green'>0.006</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:green'>JosephAburek</td>
+<td style='color:green'>0.005</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:green'>Kakiza Amooti </td>
+<td style='color:green'>0.005</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:green'>Kiggala Eddie </td>
+<td style='color:green'>0.005</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:green'>Muhind o Jamal</td>
+<td style='color:green'>0.005</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:green'>PaulSherwen</td>
+<td style='color:green'>0.004</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:green'>Adungosi Martin </td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:green'>Ssenfuma Edward</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:green'>Hon. SarapioRukundo</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:green'>DavidNjoroge</td>
+<td style='color:green'>0.003</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>Miriam Sebunya </td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>Fred W. Kyakonye</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>A. G. Mfite Basaza</td>
+<td style='color:green'>0.002</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>SasirweJohnny</td>
+<td style='color:green'>9.668e-004</td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>Merian Sebunya </td>
+<td style='color:green'>7.771e-004</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Patel Galaxy </td>
+<td style='color:green'>3.941e-004</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>Muruli </td>
+<td style='color:green'>3.271e-004</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>John Mary Muyambi (Jr)</td>
+<td style='color:green'>2.974e-004</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Joy Akoli </td>
+<td style='color:green'>9.541e-005</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Pawan Devi</td>
+<td style='color:green'>2.074e-005</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>Abid Alam </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Agumya Allan</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Ahmed Elias </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>Andrew </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>AtuhaireVictor</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Azim Nathoo </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Bakamuturaki</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Balemesa </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>Begumisa George</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Ben A. James</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Benon Tamusange </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Bitarabeho Nice</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Bob</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Brig. Andrew Lutaya</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>Bruce Milne</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>Bwogyero Abel </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>Byona Ambrose</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>Daudi Migereko</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>David Kyagulanyi</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Dr. Paul Printh </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>Eng Mbuga</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>Eng. Balu- Tabaro</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>Esau Tumusiime</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>Geoffrey Ntambirweki Kandeeb</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>George Onega</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Godfrey</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>Godfrey Luwaga</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>Gulam Abdala </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>Henry Mukisa</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>Irene Kambonesa</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>Jenifer Hinton</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>John Dixon </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>Kajura Bernard</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Kamuntu Moses</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Katumba Jimmy</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Kayonga Kellen </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Kibugo Fred </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Kirabira Stephen</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Kuma </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>Kusasira Denis </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>Kwatampora Alex Binego</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Li Yahua </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Lokeris Ben</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Lokwang Peter </td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>Luwalalira Louis Livingstone</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>Luwangula Ismail</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>Mahesh Ajudiya</td>
+<td style='color:green'>0</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>Majoli Henry </td>
+<td style='color:green'>0</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>0.003</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.022</td>
+<td>Std.dev:</td>
+<td>0.006</td>
+<td>Median:</td>
+<td>0</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0.005</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="columnExclusivity-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Column Exclusivity</h3>
+<blockquote>
+<p>Detects column nodes that have ties to row nodes comparatively few other column nodes have.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<col width='800px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Agent</td>
+<td>Value</td>
+<td>Unscaled</td>
+<td>Specialty</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Pravin Ghelani </td>
+<td style='color:red'>0.054</td>
+<td style='color:red'>7.368</td>
+<td>Tin Trade Company Limited, Esimo Industries Limited, Hard Rock Engineering Limited, Doher Industries Limited, Nelvo International Limited, Esta Industries Limited, Fergie Minerals & Metals</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Ranjeet Kumar Bhansali</td>
+<td style='color:red'>0.046</td>
+<td style='color:red'>6.368</td>
+<td>Great Lakes Mining Ltd, Indiana Mining Limited , Kimberlites Mining Limited , Universal Granite and Marble Ltd, Universal Iron Ore Ltd, GIL Enterprises Limited</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Stan Chu</td>
+<td style='color:red'>0.046</td>
+<td style='color:red'>6.368</td>
+<td>Tibet Hima Mining Company Limited, Jovena Mines (U) Limited, Gilter's Mines (U) Limited, Fulin Mines Ltd, Jiahao Mining (U) Ltd, FLD Mining (U) Ltd</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Mutebi David</td>
+<td style='color:red'>0.036</td>
+<td style='color:red'>5</td>
+<td>Budha Mining & Exploration Limited, Saba Saba Mining Limited, Elegant Resources Limited, Mota Limited, Zamani Mining Limited</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Akoli Joy </td>
+<td style='color:red'>0.025</td>
+<td style='color:red'>3.368</td>
+<td>Nile Exploration Company Limited, Oryx Minerals Limited, A B Mining Limited</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:red'>Muruli Muyambi</td>
+<td style='color:red'>0.020</td>
+<td style='color:red'>2.736</td>
+<td>Gold Empire Limited, John M. Muruli Muyambi </td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:red'>John Mary Muyambi (Jr)</td>
+<td style='color:red'>0.017</td>
+<td style='color:red'>2.368</td>
+<td>John Mary Muyambi (Jr), Mashonga</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:green'>Azim Nathoo </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Aurua Green Metals Limited, Arua Green Metals Limited</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:green'>David Kyagulanyi</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Goldspy Africa Limited , Kweri Limited</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:green'>Henry Mukisa</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Cozumel Energy (U) Limited, Blue Steel (U) Ltd</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:green'>Kajura Bernard</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>BNT Mining Limited, Bernard Kajura</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:green'>Kamuntu Moses</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Kamuntu Investments Limited, Kamuntu Moses</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:green'>Katumba Jimmy</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Beta Minerals Limited, Femet (U) Limited</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:green'>Moses Masagazi</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>AUC Mining (U) Limited, Gemstones International Limited</td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:green'>Nambirige Sheilla </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Berkeley Reef Limited, Egency International Traders Ltd</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:green'>Richard Adubango </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Lupampa Muzira Noa, Katwe Geothermal Power Project Ltd</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:green'>Sameer Rahim</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Hilltop Minerals & Metals Limited, AVR Engineering & Infrastructure Limited</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:green'>Sikander Meghani </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Sikander Meghani, Megha Minerals & Mines Limited</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:green'>Dennis Kusasira</td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Zarnack Holdings (U) Limited</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:green'>Edward Ssenfuma </td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Kisita Mining Co. Limited</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:green'>Joshua Tuhumwire</td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Frontier Exploration (U) Limited</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:green'>Oloya Mark </td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Universal Empire Infrastructures Limited</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:green'>Paul Bonabantu </td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Paul Bonabantu</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:green'>Sasirwe Johnny</td>
+<td style='color:green'>0.010</td>
+<td style='color:green'>1.368</td>
+<td>Rift Valley Minerals Company</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:green'>Abid Alam </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Steel Rolling Mills Limited</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:green'>Agumya Allan</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Rusla Mining and Minerals Limited</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:green'>Ahmed Elias </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Ahmed Elias</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:green'>Andrew </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Andrew Kabiito Rubuubi</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:green'>AtuhaireVictor</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Atuhaire Victor & Sons Limited</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:green'>Bakamuturaki</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>BBK Foods and Beverages (U) Ltd</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:green'>Balemesa </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Zoek Limited</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:green'>Begumisa George</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mineral Research & Mines Limited</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:green'>Ben A. James</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>African Panther Resources (U) Limited</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:green'>Benon Tamusange </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>African Minerals Limited</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:green'>Bitarabeho Nice</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nicewood Logistics Limited</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:green'>Bob</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Blackstone Ichiban Ltd</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:green'>Brig. Andrew Lutaya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Brig. Andrew Lutaya</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:green'>Bruce Milne</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Pearl Mining (U) Limited</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:green'>Bwogyero Abel </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Faithable International Co Limited</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:green'>Byona Ambrose</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Byona Ambrose</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:green'>Daudi Migereko</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Cupar Investment (U) Limited</td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:green'>Dr. Paul Printh </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kripto International Limited</td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>Eng Mbuga</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sombbs Mining Ltd</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>Eng. Balu- Tabaro</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kab Resources Limited</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>Esau Tumusiime</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Hillmarks Limited </td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>Geoffrey Ntambirweki Kandeeb</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Rift Valley Mines Limited </td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>George Onega</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>George Onega</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Godfrey</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Marua Group Limited</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>Godfrey Luwaga</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Godfrey Luwaga</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>Gulam Abdala </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Gulam Abdala </td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Irene Kambonesa</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Irene Kambonesa</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Jenifer Hinton</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mwendo Enterprises Limited</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>John Dixon </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Flemish Investments Limited</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Kayonga Kellen </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Marubeg Company Limited</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Kibugo Fred </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>East African Mineral Explorer Limited</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>Kirabira Stephen</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kirabira Stephen</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>Kuma </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Universal Metals Ltd</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Kusasira Denis </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>East African Gold Sniffing Company Ltd</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Kwatampora Alex Binego</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kwatampora Alex Binego</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Li Yahua </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Zhong Hua Exploration and Mineral Development Company Limited</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>Lokeris Ben</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Welt Machnen Engineering Limited</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Lokwang Peter </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Lokwang Peter</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Luwalalira Louis Livingstone</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Luwalalira Louis Livingstone</td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Luwangula Ismail</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nawata Mines Ltd</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Mahesh Ajudiya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Uganda Metal Recycling Limited</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Majoli Henry </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Majoli Henry </td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>Makubuya Farouk</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Makugem (U) Limited</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>Masette Simon and Lusala Edward</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Alta Vista Limited</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>Mbuga Nassour</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Clean  Source Energy Partners Ltd</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>Michael Wang</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>MCB Resources Limited</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>Moges Feyera</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Royalco Resources Ltd</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Mothing Samson</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Savanah Mines Limited</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>Muhammed Hamid </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Aya Mining (U) Limited</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>Musiime Patrick</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Patricos Ehterprilds</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>Muwanguzi Johnson Kato</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Muwanguzi Johnson Kato</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>Niresh Kanabar </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nilefos Minerals Limited</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>NireshPatel</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>3T Mining Limited</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Nyakahuma B </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kibiito Transporters and Construction Company Ltd</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>Nzabonimpa Geofrey</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nzabonimpa- Geofrey</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>Okello Sarah </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Whoword Investments Limited</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>Omar Bisaso</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Royal African Mining Company Limited</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>Paul Sherwen </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Busitema Mining CIE Limited</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>Sabine A</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Samaj (U) Ltd</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>Sam Bitangaro</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Majest Com (U) Limited</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>Sebabi Samuel </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sebabi Samuel</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Siraji Mwenyi Bukenya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Baracat Minerals (U) Limited</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Ssenfuma</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kitumbi Kayonza Miners Association Limited</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Sunder Wallia Kaka</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sunder Wallia Kaka</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Umal Ssonko Sembatya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Jiadao (U) Limited</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Victor Muganwa </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Capital Ventures International Limited</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Viral Bhayari</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Tin Tan (U) Limited </td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>Wasswa Birigwa</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Eco Technologies Ltd</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>William Babigumira</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>William Babigumira</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Wogabaga Stephen K.</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Wogabaga Stephen K.</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Yusuf </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mamuka Industries (U) Ltd</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Zang Jing </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>China (U) Exploration & Mineral Development</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>Zang Paul </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Tian Tang Group (U) Limited</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>Joshua T </td>
+<td style='color:green'>0.005</td>
+<td style='color:green'>0.736</td>
+<td>Greenstone Resources Limited, African Rift Minerals Ltd</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>A. G. Mfite Basaza</td>
+<td style='color:green'>0.003</td>
+<td style='color:green'>0.368</td>
+<td>Amos George Mfite Basaza</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>Adungosi Martin </td>
+<td style='color:green'>0.003</td>
+<td style='color:green'>0.368</td>
+<td>Universal Resources International Limited</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>9.878e-004</td>
+<td>Mean:</td>
+<td>0.008</td>
+<td>Lower quartile:</td>
+<td>0.003</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.054</td>
+<td>Std.dev:</td>
+<td>0.008</td>
+<td>Median:</td>
+<td>0.007</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0.007</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<p><a name="columnExclusivityComplete-graph-[Organization x Agent]Organization x Agent"></a></p>
+<h3>Complete Column Exclusivity</h3>
+<blockquote>
+<p>Detects column nodes that have ties to row nodes that no other column node has.</p>
+<p class='measures-value-classification'>If the node of interest has a higher than normal value (greater than 1 standard deviation(s) above the mean) the row is colored <span style='color:red'>red</span>. The row is <span style='color:green'>green</span> if the node is within 1 standard deviation of the mean. Finally, the row is colored <span style='color:blue'>blue</span> if the node has a lower than normal value (less than one standard deviation(s) below the mean).</p>
+<p>Input network(s): Organization x Agent</p>
+<table class='measures-ranked'>
+<col width='40px'/>
+<col width='400px'/>
+<col width='80px'/>
+<col width='80px'/>
+<col width='800px'/>
+<thead>
+<tr>
+<td>Rank</td>
+<td>Agent</td>
+<td>Value</td>
+<td>Unscaled</td>
+<td>Specialty</td>
+</tr>
+</thead>
+<tr>
+<td>1</td>
+<td style='color:red'>Pravin Ghelani </td>
+<td style='color:red'>0.051</td>
+<td style='color:red'>7</td>
+<td>Tin Trade Company Limited, Esimo Industries Limited, Hard Rock Engineering Limited, Doher Industries Limited, Nelvo International Limited, Esta Industries Limited, Fergie Minerals & Metals</td>
+</tr>
+<tr>
+<td>2</td>
+<td style='color:red'>Ranjeet Kumar Bhansali</td>
+<td style='color:red'>0.044</td>
+<td style='color:red'>6</td>
+<td>Great Lakes Mining Ltd, Indiana Mining Limited , Kimberlites Mining Limited , Universal Granite and Marble Ltd, Universal Iron Ore Ltd, GIL Enterprises Limited</td>
+</tr>
+<tr>
+<td>3</td>
+<td style='color:red'>Stan Chu</td>
+<td style='color:red'>0.044</td>
+<td style='color:red'>6</td>
+<td>Tibet Hima Mining Company Limited, Jovena Mines (U) Limited, Gilter's Mines (U) Limited, Fulin Mines Ltd, Jiahao Mining (U) Ltd, FLD Mining (U) Ltd</td>
+</tr>
+<tr>
+<td>4</td>
+<td style='color:red'>Mutebi David</td>
+<td style='color:red'>0.036</td>
+<td style='color:red'>5</td>
+<td>Budha Mining & Exploration Limited, Saba Saba Mining Limited, Elegant Resources Limited, Mota Limited, Zamani Mining Limited</td>
+</tr>
+<tr>
+<td>5</td>
+<td style='color:red'>Akoli Joy </td>
+<td style='color:red'>0.022</td>
+<td style='color:red'>3</td>
+<td>Nile Exploration Company Limited, Oryx Minerals Limited, A B Mining Limited</td>
+</tr>
+<tr>
+<td>6</td>
+<td style='color:green'>Azim Nathoo </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Aurua Green Metals Limited, Arua Green Metals Limited</td>
+</tr>
+<tr>
+<td>7</td>
+<td style='color:green'>David Kyagulanyi</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Goldspy Africa Limited , Kweri Limited</td>
+</tr>
+<tr>
+<td>8</td>
+<td style='color:green'>Henry Mukisa</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Cozumel Energy (U) Limited, Blue Steel (U) Ltd</td>
+</tr>
+<tr>
+<td>9</td>
+<td style='color:green'>John Mary Muyambi (Jr)</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>John Mary Muyambi (Jr), Mashonga</td>
+</tr>
+<tr>
+<td>10</td>
+<td style='color:green'>Kajura Bernard</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>BNT Mining Limited, Bernard Kajura</td>
+</tr>
+<tr>
+<td>11</td>
+<td style='color:green'>Kamuntu Moses</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Kamuntu Investments Limited, Kamuntu Moses</td>
+</tr>
+<tr>
+<td>12</td>
+<td style='color:green'>Katumba Jimmy</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Beta Minerals Limited, Femet (U) Limited</td>
+</tr>
+<tr>
+<td>13</td>
+<td style='color:green'>Moses Masagazi</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>AUC Mining (U) Limited, Gemstones International Limited</td>
+</tr>
+<tr>
+<td>14</td>
+<td style='color:green'>Muruli Muyambi</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Gold Empire Limited, John M. Muruli Muyambi </td>
+</tr>
+<tr>
+<td>15</td>
+<td style='color:green'>Nambirige Sheilla </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Berkeley Reef Limited, Egency International Traders Ltd</td>
+</tr>
+<tr>
+<td>16</td>
+<td style='color:green'>Richard Adubango </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Lupampa Muzira Noa, Katwe Geothermal Power Project Ltd</td>
+</tr>
+<tr>
+<td>17</td>
+<td style='color:green'>Sameer Rahim</td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Hilltop Minerals & Metals Limited, AVR Engineering & Infrastructure Limited</td>
+</tr>
+<tr>
+<td>18</td>
+<td style='color:green'>Sikander Meghani </td>
+<td style='color:green'>0.015</td>
+<td style='color:green'>2</td>
+<td>Sikander Meghani, Megha Minerals & Mines Limited</td>
+</tr>
+<tr>
+<td>19</td>
+<td style='color:green'>Abid Alam </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Steel Rolling Mills Limited</td>
+</tr>
+<tr>
+<td>20</td>
+<td style='color:green'>Agumya Allan</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Rusla Mining and Minerals Limited</td>
+</tr>
+<tr>
+<td>21</td>
+<td style='color:green'>Ahmed Elias </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Ahmed Elias</td>
+</tr>
+<tr>
+<td>22</td>
+<td style='color:green'>Andrew </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Andrew Kabiito Rubuubi</td>
+</tr>
+<tr>
+<td>23</td>
+<td style='color:green'>AtuhaireVictor</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Atuhaire Victor & Sons Limited</td>
+</tr>
+<tr>
+<td>24</td>
+<td style='color:green'>Bakamuturaki</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>BBK Foods and Beverages (U) Ltd</td>
+</tr>
+<tr>
+<td>25</td>
+<td style='color:green'>Balemesa </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Zoek Limited</td>
+</tr>
+<tr>
+<td>26</td>
+<td style='color:green'>Begumisa George</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mineral Research & Mines Limited</td>
+</tr>
+<tr>
+<td>27</td>
+<td style='color:green'>Ben A. James</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>African Panther Resources (U) Limited</td>
+</tr>
+<tr>
+<td>28</td>
+<td style='color:green'>Benon Tamusange </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>African Minerals Limited</td>
+</tr>
+<tr>
+<td>29</td>
+<td style='color:green'>Bitarabeho Nice</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nicewood Logistics Limited</td>
+</tr>
+<tr>
+<td>30</td>
+<td style='color:green'>Bob</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Blackstone Ichiban Ltd</td>
+</tr>
+<tr>
+<td>31</td>
+<td style='color:green'>Brig. Andrew Lutaya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Brig. Andrew Lutaya</td>
+</tr>
+<tr>
+<td>32</td>
+<td style='color:green'>Bruce Milne</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Pearl Mining (U) Limited</td>
+</tr>
+<tr>
+<td>33</td>
+<td style='color:green'>Bwogyero Abel </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Faithable International Co Limited</td>
+</tr>
+<tr>
+<td>34</td>
+<td style='color:green'>Byona Ambrose</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Byona Ambrose</td>
+</tr>
+<tr>
+<td>35</td>
+<td style='color:green'>Daudi Migereko</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Cupar Investment (U) Limited</td>
+</tr>
+<tr>
+<td>36</td>
+<td style='color:green'>Dennis Kusasira</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Zarnack Holdings (U) Limited</td>
+</tr>
+<tr>
+<td>37</td>
+<td style='color:green'>Dr. Paul Printh </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kripto International Limited</td>
+</tr>
+<tr>
+<td>38</td>
+<td style='color:green'>Edward Ssenfuma </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kisita Mining Co. Limited</td>
+</tr>
+<tr>
+<td>39</td>
+<td style='color:green'>Eng Mbuga</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sombbs Mining Ltd</td>
+</tr>
+<tr>
+<td>40</td>
+<td style='color:green'>Eng. Balu- Tabaro</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kab Resources Limited</td>
+</tr>
+<tr>
+<td>41</td>
+<td style='color:green'>Esau Tumusiime</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Hillmarks Limited </td>
+</tr>
+<tr>
+<td>42</td>
+<td style='color:green'>Geoffrey Ntambirweki Kandeeb</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Rift Valley Mines Limited </td>
+</tr>
+<tr>
+<td>43</td>
+<td style='color:green'>George Onega</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>George Onega</td>
+</tr>
+<tr>
+<td>44</td>
+<td style='color:green'>Godfrey</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Marua Group Limited</td>
+</tr>
+<tr>
+<td>45</td>
+<td style='color:green'>Godfrey Luwaga</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Godfrey Luwaga</td>
+</tr>
+<tr>
+<td>46</td>
+<td style='color:green'>Gulam Abdala </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Gulam Abdala </td>
+</tr>
+<tr>
+<td>47</td>
+<td style='color:green'>Irene Kambonesa</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Irene Kambonesa</td>
+</tr>
+<tr>
+<td>48</td>
+<td style='color:green'>Jenifer Hinton</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mwendo Enterprises Limited</td>
+</tr>
+<tr>
+<td>49</td>
+<td style='color:green'>John Dixon </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Flemish Investments Limited</td>
+</tr>
+<tr>
+<td>50</td>
+<td style='color:green'>Joshua Tuhumwire</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Frontier Exploration (U) Limited</td>
+</tr>
+<tr>
+<td>51</td>
+<td style='color:green'>Kayonga Kellen </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Marubeg Company Limited</td>
+</tr>
+<tr>
+<td>52</td>
+<td style='color:green'>Kibugo Fred </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>East African Mineral Explorer Limited</td>
+</tr>
+<tr>
+<td>53</td>
+<td style='color:green'>Kirabira Stephen</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kirabira Stephen</td>
+</tr>
+<tr>
+<td>54</td>
+<td style='color:green'>Kuma </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Universal Metals Ltd</td>
+</tr>
+<tr>
+<td>55</td>
+<td style='color:green'>Kusasira Denis </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>East African Gold Sniffing Company Ltd</td>
+</tr>
+<tr>
+<td>56</td>
+<td style='color:green'>Kwatampora Alex Binego</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kwatampora Alex Binego</td>
+</tr>
+<tr>
+<td>57</td>
+<td style='color:green'>Li Yahua </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Zhong Hua Exploration and Mineral Development Company Limited</td>
+</tr>
+<tr>
+<td>58</td>
+<td style='color:green'>Lokeris Ben</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Welt Machnen Engineering Limited</td>
+</tr>
+<tr>
+<td>59</td>
+<td style='color:green'>Lokwang Peter </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Lokwang Peter</td>
+</tr>
+<tr>
+<td>60</td>
+<td style='color:green'>Luwalalira Louis Livingstone</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Luwalalira Louis Livingstone</td>
+</tr>
+<tr>
+<td>61</td>
+<td style='color:green'>Luwangula Ismail</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nawata Mines Ltd</td>
+</tr>
+<tr>
+<td>62</td>
+<td style='color:green'>Mahesh Ajudiya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Uganda Metal Recycling Limited</td>
+</tr>
+<tr>
+<td>63</td>
+<td style='color:green'>Majoli Henry </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Majoli Henry </td>
+</tr>
+<tr>
+<td>64</td>
+<td style='color:green'>Makubuya Farouk</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Makugem (U) Limited</td>
+</tr>
+<tr>
+<td>65</td>
+<td style='color:green'>Masette Simon and Lusala Edward</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Alta Vista Limited</td>
+</tr>
+<tr>
+<td>66</td>
+<td style='color:green'>Mbuga Nassour</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Clean  Source Energy Partners Ltd</td>
+</tr>
+<tr>
+<td>67</td>
+<td style='color:green'>Michael Wang</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>MCB Resources Limited</td>
+</tr>
+<tr>
+<td>68</td>
+<td style='color:green'>Moges Feyera</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Royalco Resources Ltd</td>
+</tr>
+<tr>
+<td>69</td>
+<td style='color:green'>Mothing Samson</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Savanah Mines Limited</td>
+</tr>
+<tr>
+<td>70</td>
+<td style='color:green'>Muhammed Hamid </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Aya Mining (U) Limited</td>
+</tr>
+<tr>
+<td>71</td>
+<td style='color:green'>Musiime Patrick</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Patricos Ehterprilds</td>
+</tr>
+<tr>
+<td>72</td>
+<td style='color:green'>Muwanguzi Johnson Kato</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Muwanguzi Johnson Kato</td>
+</tr>
+<tr>
+<td>73</td>
+<td style='color:green'>Niresh Kanabar </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nilefos Minerals Limited</td>
+</tr>
+<tr>
+<td>74</td>
+<td style='color:green'>NireshPatel</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>3T Mining Limited</td>
+</tr>
+<tr>
+<td>75</td>
+<td style='color:green'>Nyakahuma B </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kibiito Transporters and Construction Company Ltd</td>
+</tr>
+<tr>
+<td>76</td>
+<td style='color:green'>Nzabonimpa Geofrey</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Nzabonimpa- Geofrey</td>
+</tr>
+<tr>
+<td>77</td>
+<td style='color:green'>Okello Sarah </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Whoword Investments Limited</td>
+</tr>
+<tr>
+<td>78</td>
+<td style='color:green'>Oloya Mark </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Universal Empire Infrastructures Limited</td>
+</tr>
+<tr>
+<td>79</td>
+<td style='color:green'>Omar Bisaso</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Royal African Mining Company Limited</td>
+</tr>
+<tr>
+<td>80</td>
+<td style='color:green'>Paul Bonabantu </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Paul Bonabantu</td>
+</tr>
+<tr>
+<td>81</td>
+<td style='color:green'>Paul Sherwen </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Busitema Mining CIE Limited</td>
+</tr>
+<tr>
+<td>82</td>
+<td style='color:green'>Sabine A</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Samaj (U) Ltd</td>
+</tr>
+<tr>
+<td>83</td>
+<td style='color:green'>Sam Bitangaro</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Majest Com (U) Limited</td>
+</tr>
+<tr>
+<td>84</td>
+<td style='color:green'>Sasirwe Johnny</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Rift Valley Minerals Company</td>
+</tr>
+<tr>
+<td>85</td>
+<td style='color:green'>Sebabi Samuel </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sebabi Samuel</td>
+</tr>
+<tr>
+<td>86</td>
+<td style='color:green'>Siraji Mwenyi Bukenya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Baracat Minerals (U) Limited</td>
+</tr>
+<tr>
+<td>87</td>
+<td style='color:green'>Ssenfuma</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Kitumbi Kayonza Miners Association Limited</td>
+</tr>
+<tr>
+<td>88</td>
+<td style='color:green'>Sunder Wallia Kaka</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Sunder Wallia Kaka</td>
+</tr>
+<tr>
+<td>89</td>
+<td style='color:green'>Umal Ssonko Sembatya</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Jiadao (U) Limited</td>
+</tr>
+<tr>
+<td>90</td>
+<td style='color:green'>Victor Muganwa </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Capital Ventures International Limited</td>
+</tr>
+<tr>
+<td>91</td>
+<td style='color:green'>Viral Bhayari</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Tin Tan (U) Limited </td>
+</tr>
+<tr>
+<td>92</td>
+<td style='color:green'>Wasswa Birigwa</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Eco Technologies Ltd</td>
+</tr>
+<tr>
+<td>93</td>
+<td style='color:green'>William Babigumira</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>William Babigumira</td>
+</tr>
+<tr>
+<td>94</td>
+<td style='color:green'>Wogabaga Stephen K.</td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Wogabaga Stephen K.</td>
+</tr>
+<tr>
+<td>95</td>
+<td style='color:green'>Yusuf </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Mamuka Industries (U) Ltd</td>
+</tr>
+<tr>
+<td>96</td>
+<td style='color:green'>Zang Jing </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>China (U) Exploration & Mineral Development</td>
+</tr>
+<tr>
+<td>97</td>
+<td style='color:green'>Zang Paul </td>
+<td style='color:green'>0.007</td>
+<td style='color:green'>1</td>
+<td>Tian Tang Group (U) Limited</td>
+</tr>
+<tr>
+<td>98</td>
+<td style='color:green'>A. G. Mfite Basaza</td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td>Amos George Mfite Basaza</td>
+</tr>
+<tr>
+<td>99</td>
+<td style='color:green'>Adungosi Martin </td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td>Universal Resources International Limited</td>
+</tr>
+<tr>
+<td>100</td>
+<td style='color:green'>Amos George Mfite Basaza</td>
+<td style='color:green'>0</td>
+<td style='color:green'>0</td>
+<td>Amos George Mfite Basaza</td>
+</tr>
+
+</table>
+<table class='measures-context'>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='100px'/>
+<col width='200px'/>
+<col width='100px'/>
+<tr>
+<th colspan='6'>Scaled value statistics</th>
+</tr>
+<tr>
+<td>Min:</td>
+<td>0</td>
+<td>Mean:</td>
+<td>0.007</td>
+<td>Lower quartile:</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max:</td>
+<td>0.051</td>
+<td>Std.dev:</td>
+<td>0.008</td>
+<td>Median:</td>
+<td>0.007</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Upper quartile:</td>
+<td>0.007</td>
+</tr>
+</table>
+</blockquote>
+<p><a href="#tableOfContents">Back to measure list</a></p>
+<h3>Key Nodes Table</h3>
+<blockquote>
+<p>This shows the top scoring nodes side-by-side for selected measures.</p>
+<table>
+<col width='60px'/>
+<col width='300px'/>
+<col width='300px'/>
+<tr>
+<th>Rank</th>
+<th>In-degree centrality</th>
+<th>Out-degree centrality</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Ranjeet Kumar Bhansali</td>
+<td>Oli Gold Muruli Limited</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Muruli Muyambi</td>
+<td>Mwendo Enterprises Limited</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pravin Ghelani </td>
+<td>Great Lakes Mining Ltd</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Jenifer Hinton</td>
+<td>Steel Rolling Mills Limited</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Stan Chu</td>
+<td>Sino Minerals Investments Company Limited</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Abid Alam </td>
+<td>Rift Valley Investments Limited</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Mutebi David</td>
+<td>Indiana Mining Limited </td>
+</tr>
+<tr>
+<td>8</td>
+<td>John Mary Muyambi (Jr)</td>
+<td>Universal Granite and Marble Ltd</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Kyomugisha</td>
+<td>Samaj (U) Ltd</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sabine A</td>
+<td>John Mary Muyambi (Jr)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Moses Masagazi</td>
+<td>Tororo Cement Limited</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Sikander Meghani </td>
+<td>Greenstone Resources Limited</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Akoli Joy </td>
+<td>Pearl Mining (U) Limited</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Azim Nathoo </td>
+<td>Zhong Hua Exploration and Mineral Development Company Limited</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Joshua T </td>
+<td>Oryx Minerals Limited</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Bruce Milne</td>
+<td>Rift Valley Minerals Limited</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Li Yahua </td>
+<td>Aurua Green Metals Limited</td>
+</tr>
+<tr>
+<td>18</td>
+<td>B. M.Gagrani</td>
+<td>Mate Mines Limited</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Edward Ssenfuma </td>
+<td>AUC Mining (U) Limited</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Sasirwe Johnny</td>
+<td>African Rift Minerals Ltd</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Sameer Rahim</td>
+<td>Royalco Resources Ltd</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Joshua Tuhumwire</td>
+<td>Saba Saba Mining Limited</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Moges Feyera</td>
+<td>Nelvo International Limited</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Umal Ssonko Sembatya</td>
+<td>Hima Cement Limited</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Bob</td>
+<td>Jiadao (U) Limited</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Mbuga Nassour</td>
+<td>Sikander Meghani</td>
+</tr>
+<tr>
+<td>27</td>
+<td>David Njoroge</td>
+<td>Gemstones International Limited</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Katumba Jimmy</td>
+<td>Megha Minerals & Mines Limited</td>
+</tr>
+<tr>
+<td>29</td>
+<td>David Kyagulanyi</td>
+<td>Blackstone Ichiban Ltd</td>
+</tr>
+<tr>
+<td>30</td>
+<td>B M Gagrani </td>
+<td>AVR Engineering & Infrastructure Limited</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Fred W. Kyakonye</td>
+<td>Kilembe Mines Limited</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Kajura Bernard</td>
+<td>Clean  Source Energy Partners Ltd</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Lokeris Ben</td>
+<td>Peter Mukiza</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Luwangula Ismail</td>
+<td>Gulf Resources Limited</td>
+</tr>
+<tr>
+<td>35</td>
+<td>William Babigumira</td>
+<td>Welt Machnen Engineering Limited</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Dennis Kusasira</td>
+<td>Nawata Mines Ltd</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Eng. Balu- Tabaro</td>
+<td>William Babigumira</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Peter Mukiza </td>
+<td>Kab Resources Limited</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Paul Bonabantu </td>
+<td>Heer Distributors Limited</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Balemesa </td>
+<td>Amos George Mfite Basaza</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Andrew </td>
+<td>First Mining Company Limited</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Yusuf </td>
+<td>Milu (U) Limited</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Patel Galaxy </td>
+<td>FLD Mining (U) Ltd</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Sunder Wallia Kaka</td>
+<td>Zoek Limited</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Sam Bitangaro</td>
+<td>Andrew Kabiito Rubuubi</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Amos George Mfite Basaza</td>
+<td>Mamuka Industries (U) Ltd</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Daudi Migereko</td>
+<td>Sunder Wallia Kaka</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Kirabira Stephen</td>
+<td>Fergie Minerals & Metals</td>
+</tr>
+<tr>
+<td>49</td>
+<td>Begumisa George</td>
+<td>Majest Com (U) Limited</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Henry Mukisa</td>
+<td>Cupar Investment (U) Limited</td>
+</tr>
+<tr>
+<td>51</td>
+<td>Ssenfuma</td>
+<td>Mineral Research & Mines Limited</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Joseph Aburek</td>
+<td>Kirabira Stephen</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Kamuntu Moses</td>
+<td>Budha Mining & Exploration Limited</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Omar Bisaso</td>
+<td>Fulin Mines Ltd</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Sebabi Samuel </td>
+<td>Doher Industries Limited</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Siraji Mwenyi Bukenya</td>
+<td>Tibet Hima Mining Company Limited</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Mothing Samson</td>
+<td>BNT Mining Limited</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Oloya Mark </td>
+<td>Kitumbi Kayonza Miners Association Limited</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Dennis</td>
+<td>Paul Bonabantu</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Kayonga Kellen </td>
+<td>Royal African Mining Company Limited</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Godfrey</td>
+<td>Beta Minerals Limited</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Lokwang Peter </td>
+<td>Sebabi Samuel</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Kibugo Fred </td>
+<td>Goldspy Africa Limited </td>
+</tr>
+<tr>
+<td>64</td>
+<td>Hon. Sarapio Rukundo</td>
+<td>Baracat Minerals (U) Limited</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Benon Tamusange </td>
+<td>Savanah Mines Limited</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Irene Kambonesa</td>
+<td>Esimo Industries Limited</td>
+</tr>
+<tr>
+<td>67</td>
+<td>George Onega</td>
+<td>Kigezi Steel Company Limited</td>
+</tr>
+<tr>
+<td>68</td>
+<td>Luwalalira Louis Livingstone</td>
+<td>Marubeg Company Limited</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Byona Ambrose</td>
+<td>Marua Group Limited</td>
+</tr>
+<tr>
+<td>70</td>
+<td>Kuma </td>
+<td>Kimberlites Mining Limited </td>
+</tr>
+<tr>
+<td>71</td>
+<td>Eng Mbuga</td>
+<td>Lokwang Peter</td>
+</tr>
+<tr>
+<td>72</td>
+<td>Victor Muganwa </td>
+<td>Frontier Exploration (U) Limited</td>
+</tr>
+<tr>
+<td>73</td>
+<td>Wasswa Birigwa</td>
+<td>East African Mineral Explorer Limited</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Majoli Henry </td>
+<td>Zarnack Holdings (U) Limited</td>
+</tr>
+<tr>
+<td>75</td>
+<td>Nzabonimpa Geofrey</td>
+<td>Gold Empire Limited</td>
+</tr>
+<tr>
+<td>76</td>
+<td>Ahmed Elias </td>
+<td>Arua Green Metals Limited</td>
+</tr>
+<tr>
+<td>77</td>
+<td>KakizaAmooti</td>
+<td>African Minerals Limited</td>
+</tr>
+<tr>
+<td>78</td>
+<td>PaulSherwen</td>
+<td>Kisita Mining Co. Limited</td>
+</tr>
+<tr>
+<td>79</td>
+<td>Muhindo Jamal </td>
+<td>Krone Uganda Limited</td>
+</tr>
+<tr>
+<td>80</td>
+<td>Agumya Allan</td>
+<td>Muhindo Enterprises</td>
+</tr>
+<tr>
+<td>81</td>
+<td>Michael Wang</td>
+<td>Mines Industry Services (U) Ltd</td>
+</tr>
+<tr>
+<td>82</td>
+<td>Bakamuturaki</td>
+<td>Cozumel Energy (U) Limited</td>
+</tr>
+<tr>
+<td>83</td>
+<td>Viral Bhayari</td>
+<td>George Onega</td>
+</tr>
+<tr>
+<td>84</td>
+<td>Mr. Abeb </td>
+<td>Jovena Mines (U) Limited</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Mr.Abeb</td>
+<td>Gilter's Mines (U) Limited</td>
+</tr>
+<tr>
+<td>86</td>
+<td>KiggalaEddie</td>
+<td>Moroto Cement Industries  (U) Limited</td>
+</tr>
+<tr>
+<td>87</td>
+<td>Nambirige Sheilla </td>
+<td>Nile Exploration Company Limited</td>
+</tr>
+<tr>
+<td>88</td>
+<td>Richard Adubango </td>
+<td>Irene Kambonesa</td>
+</tr>
+<tr>
+<td>89</td>
+<td>Ssenfuma Edward</td>
+<td>Luwalalira Louis Livingstone</td>
+</tr>
+<tr>
+<td>90</td>
+<td>Makubuya Farouk</td>
+<td>Indiana Investments Limited</td>
+</tr>
+<tr>
+<td>91</td>
+<td>Miriam Sebunya </td>
+<td>Byona Ambrose</td>
+</tr>
+<tr>
+<td>92</td>
+<td>Okello Sarah </td>
+<td>Jiahao Mining (U) Ltd</td>
+</tr>
+<tr>
+<td>93</td>
+<td>Masette Simon and Lusala Edward</td>
+<td>Eco Technologies Ltd</td>
+</tr>
+<tr>
+<td>94</td>
+<td>Muhammed Hamid </td>
+<td>Universal Metals Ltd</td>
+</tr>
+<tr>
+<td>95</td>
+<td>Musiime Patrick</td>
+<td>Hilltop Minerals & Metals Limited</td>
+</tr>
+<tr>
+<td>96</td>
+<td>NireshPatel</td>
+<td>Sombbs Mining Ltd</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Ben A. James</td>
+<td>Capital Ventures International Limited</td>
+</tr>
+<tr>
+<td>98</td>
+<td>DavidNjoroge</td>
+<td>Kamuntu Moses</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Esau Tumusiime</td>
+<td>Universal Resources International Limited</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Kwatampora Alex Binego</td>
+<td>Universal Empire Infrastructures Limited</td>
+</tr>
+</table>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>Produced by ORA-NetScenes, a joint product of the CASOS center at Carnegie Mellon University and Netanomics</p>
